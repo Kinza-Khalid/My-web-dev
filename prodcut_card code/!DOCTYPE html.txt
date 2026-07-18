@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="product-name">Noore_essen_sials</h1>
+    <div class="product-card">
+         <h2 class="product-">Luxury Modest Wear Collection</h2>
+        <p class="p-des">Wrapped in elegance , styled with grace. Our premium hijabs are designed to bring out your modest beauty while keeping you comfortable all day long.
+            Soft fabric , perfect drape , and timeless shades - because modesty deserves to be luxurious.
+
+            Shop now with Noore_essen_sials!
+        </p>
+        <div class="images">
+        <img src="hijab 1.jpg" alt="" class="img-1">
+        <img src="hijab 2.jpg" alt="" class="img-2">
+        <img src="hijab 3.jpg" alt="" class="img-3">
+        </div>
+        <button class="order-btn">Order Now!</button>
+    </div>
+</body>
+</html>
+
+
+
+body{
+    background-color: rgb(237, 210, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.product-name{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    background-color:rgb(229, 188, 139);
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   align-items: center;
+   margin-bottom: 8px;
+}
+.product-card img
+{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-
+{
+  color: black;
+  width: 80;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.p-des
+{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.order-btn
+{
+ background-color: aliceblue;
+ color: #000;
+font-size: larger;
+font-weight: 700;
+cursor: pointer;
+padding: 10px;
+border: none;
+height: 50;
+}
